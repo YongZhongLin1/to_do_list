@@ -1,1 +1,1 @@
-export './navigationBloc/bloc.dart';
+export './navigationService.dart';

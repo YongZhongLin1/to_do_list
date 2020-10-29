@@ -19,7 +19,7 @@ class Routes {
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     // ignore: unused_local_variable
-    final Map<String, dynamic> args = settings.arguments;
+    final Map<String, dynamic> args = settings?.arguments ?? {};
 
     switch (settings.name) {
       case appHome:
@@ -33,7 +33,9 @@ class Routes {
       case toDoForm:
         return MaterialPageRoute(
           builder: (context) {
-            return generateRoute(ToDoForm());
+            return generateRoute(ToDoForm(
+              toDo: args["toDo"],
+            ));
           },
         );
         break;
