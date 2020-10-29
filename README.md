@@ -1,16 +1,23 @@
 # to_do_list
 
-A new Flutter project.
+A Flutter project where user able to create a list on things to do.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the project and make sure to run "flutter pub get" in the project before start debug
+2. This project is using Flutter bloc as main structure.
+3. The list is not stored so the list is always clean when open the app
 
-A few resources to get you started if this is your first Flutter project:
+## Plans for this app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [x] Done basic function
+- [ ] Store list as json in the project
+- [ ] Implement CI/CD
+- [ ] Implement Arbify to control localization from backend
+- [ ] Use flutter as REST API(For fun)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Extra Ideas for this app(might implement in the future)
+
+- [ ] Notify user when the end time is near
+- [ ] Able to create a group and invite other users to join and create list to do in group
+- [ ] :thinking: Well...Just gonna throw in random crazy ideas from Internet
